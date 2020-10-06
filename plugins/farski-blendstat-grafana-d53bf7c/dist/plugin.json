@@ -1,0 +1,25 @@
+{
+  "type": "panel",
+  "name": "Blendstat",
+  "id": "farski-blendstat-panel",
+
+  "info": {
+    "description": "Blendstat Panel for Grafana",
+    "author": {
+      "name": "Christopher Kalafarski",
+      "url": "https://github.com/farski/blendstat-grafana"
+    },
+    "keywords": ["blendstat", "grafana", "panel"],
+    "logos": {
+      "small": "img/icn-blendstat-panel.svg",
+      "large": "img/icn-blendstat-panel.svg"
+    },
+    "version": "1.0.2",
+    "updated": "2019-11-11"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "5.0.0",
+    "plugins": [ ]
+  }
+}

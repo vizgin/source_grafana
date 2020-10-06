@@ -1,0 +1,34 @@
+{
+  "name": "grafana-json-datasource",
+  "description": "Grafana JSON datasource",
+  "main": "index.js",
+  "version": "0.2.1",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "prettier:check": "prettier --list-different \"**/*.{ts,tsx,scss}\"",
+    "prettier:write": "prettier --list-different \"**/*.{ts,tsx,scss}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simPod/grafana-json-datasource.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simPod/grafana-json-datasource/issues"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "@grafana/data": "^7.1.0",
+    "@grafana/runtime": "^7.1.0",
+    "@grafana/toolkit": "^7.1.0",
+    "@grafana/ui": "^7.1.0",
+    "@types/lodash": "^4.14.157"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
+  },
+  "homepage": "https://github.com/simPod/grafana-json-datasource#readme"
+}

@@ -1,0 +1,16 @@
+<div class="editor-row">
+  <div class="section gf-form-group">
+    <h5 class="section-heading">Value</h5>
+
+    <div class="gf-form-inline">
+      <div class="gf-form">
+        <label class="gf-form-label width-10">Blending
+          <tip>Determines how values from different series are blended. Values are blended when they occur at the same time.</tip>
+        </label>
+        <div class="gf-form-select-wrapper width-18">
+          <select class="gf-form-input" ng-model="ctrl.panel.blendName" ng-options="f.value as f.text for f in ctrl.blendNameOptions" ng-change="ctrl.refresh()"></select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
