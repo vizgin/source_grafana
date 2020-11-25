@@ -81,6 +81,7 @@ COPY plugins/flant-grafana-statusmap-9a2e4a3 /var/lib/grafana/plugins/grafana-st
 COPY plugins/farski-blendstat-grafana-d53bf7c /var/lib/grafana/plugins/grafana-blendstat-panel
 COPY plugins/simPod-grafana-json-datasource-a041dbf /var/lib/grafana/plugins/grafana-json-over-http-ds
 COPY plugins/Vertamedia-clickhouse-grafana-bcee398 /var/lib/grafana/plugins/grafana-clickhouse-source
+COPY plugins/alertmanager-datasource /var/lib/grafana/plugins/alertmanager-datasource
 RUN chmod 777 /var/lib/grafana
 
 COPY --from=0 /tmp/lib /lib
